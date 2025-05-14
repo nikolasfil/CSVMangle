@@ -1,3 +1,18 @@
+Item: A1_2_10_24 - Dataset 1-csv.csv
+Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.55
+Item: A1_2_10_24 - Dataset 1-properties.csv
+Max height: 0.00 Amps
+
+Item: A1_2_10_24 - Dataset 2-csv.csv
+Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.52
+Item: A1_2_10_24 - Dataset 2-properties.csv
+Max height: 0.00 Amps
+
+Item: A1_2_10_24 - Dataset 3-csv.csv
+Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.46
+Item: A1_2_10_24 - Dataset 3-properties.csv
+Max height: 0.00 Amps
+
 Item: A1_2_10_24_1_50 - Dataset 1-csv.csv
 Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.77
 Item: A1_2_10_24_1_50 - Dataset 1-properties.csv
