@@ -34,7 +34,16 @@ class Mangler:
         # Read a CSV file into a pandas DataFrame
         df = pandas.read_csv(file_path, skipinitialspace=True, encoding="latin-1")
 
-        return df
+        column = "Brd Reslt"
+
+        df[column] = pandas.to_numeric(df[column], errors="coerce")
+        mean_value = df[column].mean()
+
+        column = "Brd Load"
+        df[column] = pandas.to_numeric(df[column], errors="coerce")
+        max_value = df[column].max()
+
+        return mean_value, max_value
 
     def read_max_height(self, file_path):
         with open(file_path, "r") as file:
@@ -46,10 +55,7 @@ class Mangler:
             lst.append(result)
         print(result)
 
-    def list_data_contents(self, folder_path, save=False):
-        column = "Brd Load"
-        output_list = []
-
+    def iterate_directory(self, folder_path):
         if not folder_path.exists():
             print(f"The folder {folder_path} does not exist.")
             return
@@ -63,7 +69,17 @@ class Mangler:
                         print(f"File: {sub_item.name}")
                         self.split_file(sub_item)
 
-            elif item.is_file():
+    def list_data_contents(self, folder_path, save=False):
+        column = "Brd Load"
+        output_list = []
+
+        if not folder_path.exists():
+            print(f"The folder {folder_path} does not exist.")
+            return
+
+        for item in sorted(folder_path.iterdir()):
+
+            if item.is_file():
                 # Used for creating the output
 
                 if "-properties" in item.name:
@@ -88,13 +104,7 @@ class Mangler:
                         save=save,
                     )
 
-                    column = "Brd Reslt"
-
-                    df = self.read_csv(item)
-                    df[column] = pandas.to_numeric(df[column], errors="coerce")
-
-                    # Calculate and print the mean (μέση τιμή)
-                    mean_value = df[column].mean()
+                    mean_value, max_value = self.read_csv(item)
 
                     self.print_save(
                         f"Μέση τιμή (mean) της στήλης {column}: {mean_value}",
@@ -102,8 +112,6 @@ class Mangler:
                         save=save,
                     )
 
-                    column = "Brd Load"
-                    max_value = df[column].max()
                     self.print_save(
                         f"Peak της στήλης {column}: {max_value:.2f}",
                         lst=output_list,
@@ -111,12 +119,15 @@ class Mangler:
                     )
 
         if save:
-            # Save the output to a text file
-            output_file = Path(self.parent, "output.txt")
-            with open(output_file, "w") as f:
-                for line in output_list:
-                    f.write(line + "\n")
-            print(f"Output saved to {output_file}")
+            self.save_output_to_file(output_list)
+
+    def save_output_to_file(self, output_list):
+        # Save the output to a text file
+        output_file = Path(self.parent, "output.txt")
+        with open(output_file, "w") as f:
+            for line in output_list:
+                f.write(line + "\n")
+        print(f"Output saved to {output_file}")
 
     def main(self):
         print("Formatting files")
