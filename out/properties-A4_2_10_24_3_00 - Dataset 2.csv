@@ -1,0 +1,33 @@
+Data Filename            : export\A4\A4_2_10_24_3_00 - Dataset 2.csv
+Dataset Number           : 2
+********************************************************************
+EMCALC File Version Number    : 1.010
+TTBASIC Version Number   : 3.0C
+Bandwidth                : Broadband
+Data Storage             : Resultant & E
+Operation Mode           : Normal
+Diagnostic Code          : 0 - No errors
+Sample Rate              : 5.0 sec
+Number of Events         : 1
+End Battery              : 68 %
+Number of Records        : 33
+Number of Invalid Records        : 0
+Saturated Data Records   : 0
+Filler Records           : 0
+Half Bin Width Added     : Yes
+Start Time               : Oct/02/2024 03:01:33 PM 
+Stop Time                : Oct/02/2024 03:04:13 PM 
+Max Broadband Resultant  : 0.54 mG
+Max Broadband Load       : 0.05 Amps
+Parent File              : A4_2_10_
+Description              : 
+Record Type              : 3
+Unit Type                : EMDEX II  (0)
+Concatenated File        : No
+Aggregated File          : No
+Breakout File            : No
+Converted EMDEX 1.x File : No
+Converted EMDEX I File   : No
+Converted to LINDA File  : No
+
+   (mG),      (Amps)
