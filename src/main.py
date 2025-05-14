@@ -45,10 +45,16 @@ class Mangler:
 
         return mean_value, max_value
 
-    def read_max_height(self, file_path):
+    def read_max_property(
+        self, file_path, line=19, property="Max Broadband Resultant  : "
+    ):
         with open(file_path, "r") as file:
             lines = file.readlines()
-        return lines[19].split("Max Broadband Resultant  : ")[1]
+
+        for line in lines:
+            if property in line:
+                return line.split(property)[1]
+        # return lines[line].split(property)[1]
 
     def iterate_directory(self, folder_path):
         if not folder_path.exists():
@@ -68,6 +74,7 @@ class Mangler:
         output_list = []
         column_mean = "Brd Reslt"
         column_max = "Brd Load"
+        property = "Max Broadband Resultant  : "
 
         if not folder_path.exists():
             print(f"The folder {folder_path} does not exist.")
@@ -80,10 +87,10 @@ class Mangler:
 
                 if "-properties" in item.name:
 
-                    max_height = self.read_max_height(item)
+                    max_height = self.read_max_property(item, property=property)
 
                     self.print_save(
-                        f"Max Broadband Resultant  : {max_height}",
+                        f"{property} {max_height}",
                         lst=output_list,
                         save=save,
                     )
