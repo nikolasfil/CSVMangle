@@ -1,0 +1,68 @@
+Data Filename            : export\�2 ����\A1_2_10_24 - Dataset 3.csv
+Dataset Number           : 3
+********************************************************************
+EMCALC File Version Number    : 1.010
+TTBASIC Version Number   : 3.0C
+Bandwidth                : Broadband
+Data Storage             : Resultant & E
+Operation Mode           : Normal
+Diagnostic Code          : 0 - No errors
+Sample Rate              : 5.0 sec
+Number of Events         : 0
+End Battery              : 77 %
+Number of Records        : 34
+Number of Invalid Records        : 0
+Saturated Data Records   : 0
+Filler Records           : 0
+Half Bin Width Added     : Yes
+Start Time               : Oct/02/2024 10:47:37 AM 
+Stop Time                : Oct/02/2024 10:50:22 AM 
+Max Broadband Resultant  : 0.66 mG
+Max Broadband Load       : 0.00 Amps
+Parent File              : A1_2_10_
+Description              : 
+Record Type              : 3
+Unit Type                : EMDEX II  (0)
+Concatenated File        : No
+Aggregated File          : No
+Breakout File            : No
+Converted EMDEX 1.x File : No
+Converted EMDEX I File   : No
+Converted to LINDA File  : No
+
+   (mG),      (Amps)
+Brd Reslt,   Brd Load,  Key,     Date,       Time,    Record,Event
+     0.66,     0.00,   00000000, Oct/02/2024 10:47:37 AM, 1, 
+     0.58,     0.00,   00000000, Oct/02/2024 10:47:42 AM, 2, 
+     0.62,     0.00,   00000000, Oct/02/2024 10:47:47 AM, 3, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:47:52 AM, 4, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:47:57 AM, 5, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:02 AM, 6, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:07 AM, 7, 
+     0.47,     0.00,   00000000, Oct/02/2024 10:48:12 AM, 8, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:17 AM, 9, 
+     0.53,     0.00,   00000000, Oct/02/2024 10:48:22 AM, 10, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:27 AM, 11, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:32 AM, 12, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:37 AM, 13, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:42 AM, 14, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:47 AM, 15, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:52 AM, 16, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:48:57 AM, 17, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:02 AM, 18, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:07 AM, 19, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:12 AM, 20, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:17 AM, 21, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:22 AM, 22, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:27 AM, 23, 
+     0.47,     0.00,   00000000, Oct/02/2024 10:49:32 AM, 24, 
+     0.47,     0.00,   00000000, Oct/02/2024 10:49:37 AM, 25, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:42 AM, 26, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:47 AM, 27, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:52 AM, 28, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:49:57 AM, 29, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:50:02 AM, 30, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:50:07 AM, 31, 
+     0.43,     0.00,   00000000, Oct/02/2024 10:50:12 AM, 32, 
+     0.53,     0.00,   00000000, Oct/02/2024 10:50:17 AM, 33, 
+     0.42,     0.00,   00000000, Oct/02/2024 10:50:22 AM, 34, 
