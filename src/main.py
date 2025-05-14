@@ -60,7 +60,6 @@ class Mangler:
                         self.split_file(sub_item)
 
             elif item.is_file():
-                print(f"Item: {item.name}")
                 if save:
                     output.append(f"Item: {item.name}")
                 if "-properties" in item.name:
@@ -70,6 +69,11 @@ class Mangler:
                         output.append(f"Max Broadband Resultant  : {max_height}")
 
                 elif "-csv" in item.name:
+
+                    item_name = (
+                        item.name.strip("-properties").strip("-csv").strip(".csv")
+                    )
+                    print(f"Item: {item_name}")
                     column = "Brd Reslt"
                     # print(f"File: {item.name}")
                     df = self.read_csv(item)
