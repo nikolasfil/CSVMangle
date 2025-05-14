@@ -30,30 +30,51 @@ class Mangler:
 
     def read_csv(self, file_path):
         # Read a CSV file into a pandas DataFrame
-        df = pandas.read_csv(file_path)
+        df = pandas.read_csv(
+            file_path, skipinitialspace=True, encoding="latin-1"
+        )  # use 'latin-1' or 'cp1252' if needed
+
         return df
 
-    def list_data_contents(self):
+    def read_max_height(self, file_path):
+        with open(file_path, "r") as file:
+            lines = file.readlines()
+        return lines[20].split("Max Broadband Load       : ")[1]
 
-        if not self.folder_data.exists():
-            print(f"The folder {self.folder_data} does not exist.")
+    def list_data_contents(self, folder_path):
+
+        if not folder_path.exists():
+            print(f"The folder {folder_path} does not exist.")
             return
 
-        # print(f"Contents of {self.folder_data}:")
-
-        for item in self.folder_data.iterdir():
+        for item in folder_path.iterdir():
             if item.is_dir():
-                # print(f"Directory: {item.name}")
+                print(f"Directory: {item.name}")
                 for sub_item in item.iterdir():
                     if sub_item.is_file():
                         print(f"File: {sub_item.name}")
                         self.split_file(sub_item)
-                    else:
-                        # print(f"Directory: {sub_item.name}")
-                        pass
+
+            elif item.is_file():
+                # print(f"File: {item.name}")
+                if "properties-" in item.name:
+                    # print(f"File: {item.name}")
+                    max_height = self.read_max_height(item)
+                    print(f"Max height: {max_height}")
+
+                elif "csv-" in item.name:
+                    # print(f"File: {item.name}")
+                    df = self.read_csv(item)
+                    df["Brd Reslt"] = pandas.to_numeric(
+                        df["Brd Reslt"], errors="coerce"
+                    )
+                    # Calculate and print the mean (μέση τιμή)
+                    mean_value = df["Brd Reslt"].mean()
+                    print(f"Μέση τιμή (mean) της στήλης 'Brd Reslt': {mean_value:.2f}")
 
     def main(self):
-        self.list_data_contents()
+        # self.list_data_contents(self.folder_data)
+        self.list_data_contents(self.folder_out)
 
 
 if __name__ == "__main__":
