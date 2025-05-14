@@ -65,9 +65,9 @@ class Mangler:
                     output.append(f"Item: {item.name}")
                 if "-properties" in item.name:
                     max_height = self.read_max_height(item)
-                    print(f"Max height: {max_height}")
+                    print(f"Max Broadband Resultant  : {max_height}")
                     if save:
-                        output.append(f"Max height: {max_height}")
+                        output.append(f"Max Broadband Resultant  : {max_height}")
 
                 elif "-csv" in item.name:
 
