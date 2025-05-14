@@ -70,7 +70,7 @@ class Mangler:
                         output.append(f"Max Broadband Resultant  : {max_height}")
 
                 elif "-csv" in item.name:
-
+                    column = "Brd Reslt"
                     # print(f"File: {item.name}")
                     df = self.read_csv(item)
                     df[column] = pandas.to_numeric(df[column], errors="coerce")
@@ -81,8 +81,8 @@ class Mangler:
                     if save:
                         output.append(result)
 
+                    column = "Brd Load"
                     max_value = df[column].max()
-
                     result = f"Peak της στήλης {column}: {max_value:.2f}"
                     print(result)
                     if save:
