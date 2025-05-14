@@ -1,90 +1,108 @@
 Item: A1_2_10_24 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Peak της στήλης Brd Load: 0.00
 Item: A1_2_10_24 - Dataset 1-properties.csv
 Max Broadband Resultant  : 0.62 mG
 
 Item: A1_2_10_24 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Peak της στήλης Brd Load: 0.00
 Item: A1_2_10_24 - Dataset 2-properties.csv
 Max Broadband Resultant  : 0.71 mG
 
 Item: A1_2_10_24 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Peak της στήλης Brd Load: 0.00
 Item: A1_2_10_24 - Dataset 3-properties.csv
 Max Broadband Resultant  : 0.66 mG
 
 Item: A1_2_10_24_1_50 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.01
+Μέση τιμή (mean) της στήλης Brd Load: 0.0074
+Peak της στήλης Brd Load: 0.29
 Item: A1_2_10_24_1_50 - Dataset 1-properties.csv
 Max Broadband Resultant  : 1.06 mG
 
 Item: A1_2_10_24_1_50 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0025
+Peak της στήλης Brd Load: 0.11
 Item: A1_2_10_24_1_50 - Dataset 2-properties.csv
 Max Broadband Resultant  : 0.92 mG
 
 Item: A1_2_10_24_1_50 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0024444444444444444
+Peak της στήλης Brd Load: 0.09
 Item: A1_2_10_24_1_50 - Dataset 3-properties.csv
 Max Broadband Resultant  : 1.17 mG
 
 Item: A2_2_10_24_2_32 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Peak της στήλης Brd Load: 0.00
 Item: A2_2_10_24_2_32 - Dataset 1-properties.csv
 Max Broadband Resultant  : 0.31 mG
 
 Item: A2_2_10_24_2_32 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.002631578947368421
+Peak της στήλης Brd Load: 0.05
 Item: A2_2_10_24_2_32 - Dataset 2-properties.csv
 Max Broadband Resultant  : 0.38 mG
 
 Item: A2_2_10_24_2_32 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.002162162162162162
+Peak της στήλης Brd Load: 0.08
 Item: A2_2_10_24_2_32 - Dataset 3-properties.csv
 Max Broadband Resultant  : 0.38 mG
 
 Item: A3_2_10_24_2_52 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0006666666666666666
+Peak της στήλης Brd Load: 0.03
 Item: A3_2_10_24_2_52 - Dataset 1-properties.csv
 Max Broadband Resultant  : 0.18 mG
 
 Item: A3_2_10_24_2_52 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0023076923076923075
+Peak της στήλης Brd Load: 0.09
 Item: A3_2_10_24_2_52 - Dataset 2-properties.csv
 Max Broadband Resultant  : 0.26 mG
 
 Item: A3_2_10_24_2_52 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.02
+Μέση τιμή (mean) της στήλης Brd Load: 0.022424242424242423
+Peak της στήλης Brd Load: 0.73
 Item: A3_2_10_24_2_52 - Dataset 3-properties.csv
 Max Broadband Resultant  : 0.18 mG
 
 Item: A4_2_10_24_3_00 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Peak της στήλης Brd Load: 0.00
 Item: A4_2_10_24_3_00 - Dataset 1-properties.csv
 Max Broadband Resultant  : 0.42 mG
 
 Item: A4_2_10_24_3_00 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0033333333333333335
+Peak της στήλης Brd Load: 0.05
 Item: A4_2_10_24_3_00 - Dataset 2-properties.csv
 Max Broadband Resultant  : 0.54 mG
 
 Item: A4_2_10_24_3_00 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0005555555555555556
+Peak της στήλης Brd Load: 0.02
 Item: A4_2_10_24_3_00 - Dataset 3-properties.csv
 Max Broadband Resultant  : 0.32 mG
 
 Item: P2_2_10_24_2_10 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.0011111111111111111
+Peak της στήλης Brd Load: 0.02
 Item: P2_2_10_24_2_10 - Dataset 1-properties.csv
 Max Broadband Resultant  : 1.08 mG
 
 Item: P2_2_10_24_2_10 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.00
+Μέση τιμή (mean) της στήλης Brd Load: 0.00023255813953488373
+Peak της στήλης Brd Load: 0.01
 Item: P2_2_10_24_2_10 - Dataset 2-properties.csv
 Max Broadband Resultant  : 1.16 mG
 
 Item: P2_2_10_24_2_10 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης Brd Load: 0.02
+Μέση τιμή (mean) της στήλης Brd Load: 0.015294117647058824
+Peak της στήλης Brd Load: 0.52
 Item: P2_2_10_24_2_10 - Dataset 3-properties.csv
 Max Broadband Resultant  : 1.11 mG
 

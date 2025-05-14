@@ -76,11 +76,17 @@ class Mangler:
                     df[column] = pandas.to_numeric(df[column], errors="coerce")
                     # Calculate and print the mean (μέση τιμή)
                     mean_value = df[column].mean()
-                    print(f"Μέση τιμή (mean) της στήλης {column}: {mean_value:.2f}")
+                    result = f"Μέση τιμή (mean) της στήλης {column}: {mean_value}"
+                    print(result)
                     if save:
-                        output.append(
-                            f"Μέση τιμή (mean) της στήλης {column}: {mean_value:.2f}"
-                        )
+                        output.append(result)
+
+                    max_value = df[column].max()
+
+                    result = f"Peak της στήλης {column}: {max_value:.2f}"
+                    print(result)
+                    if save:
+                        output.append(result)
 
         if save:
             # Save the output to a text file
