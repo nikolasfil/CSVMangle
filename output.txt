@@ -1,90 +1,90 @@
 Item: A1_2_10_24 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.55
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A1_2_10_24 - Dataset 1-properties.csv
-Max height: 0.00 Amps
+Max height: 0.62 mG
 
 Item: A1_2_10_24 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.52
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A1_2_10_24 - Dataset 2-properties.csv
-Max height: 0.00 Amps
+Max height: 0.71 mG
 
 Item: A1_2_10_24 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.46
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A1_2_10_24 - Dataset 3-properties.csv
-Max height: 0.00 Amps
+Max height: 0.66 mG
 
 Item: A1_2_10_24_1_50 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.77
+Μέση τιμή (mean) της στήλης Brd Load: 0.01
 Item: A1_2_10_24_1_50 - Dataset 1-properties.csv
-Max height: 0.29 Amps
+Max height: 1.06 mG
 
 Item: A1_2_10_24_1_50 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.66
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A1_2_10_24_1_50 - Dataset 2-properties.csv
-Max height: 0.11 Amps
+Max height: 0.92 mG
 
 Item: A1_2_10_24_1_50 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.56
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A1_2_10_24_1_50 - Dataset 3-properties.csv
-Max height: 0.09 Amps
+Max height: 1.17 mG
 
 Item: A2_2_10_24_2_32 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.26
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A2_2_10_24_2_32 - Dataset 1-properties.csv
-Max height: 0.00 Amps
+Max height: 0.31 mG
 
 Item: A2_2_10_24_2_32 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.26
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A2_2_10_24_2_32 - Dataset 2-properties.csv
-Max height: 0.05 Amps
+Max height: 0.38 mG
 
 Item: A2_2_10_24_2_32 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.27
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A2_2_10_24_2_32 - Dataset 3-properties.csv
-Max height: 0.08 Amps
+Max height: 0.38 mG
 
 Item: A3_2_10_24_2_52 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.18
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A3_2_10_24_2_52 - Dataset 1-properties.csv
-Max height: 0.03 Amps
+Max height: 0.18 mG
 
 Item: A3_2_10_24_2_52 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.18
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A3_2_10_24_2_52 - Dataset 2-properties.csv
-Max height: 0.09 Amps
+Max height: 0.26 mG
 
 Item: A3_2_10_24_2_52 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.18
+Μέση τιμή (mean) της στήλης Brd Load: 0.02
 Item: A3_2_10_24_2_52 - Dataset 3-properties.csv
-Max height: 0.73 Amps
+Max height: 0.18 mG
 
 Item: A4_2_10_24_3_00 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.40
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A4_2_10_24_3_00 - Dataset 1-properties.csv
-Max height: 0.00 Amps
+Max height: 0.42 mG
 
 Item: A4_2_10_24_3_00 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.33
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A4_2_10_24_3_00 - Dataset 2-properties.csv
-Max height: 0.05 Amps
+Max height: 0.54 mG
 
 Item: A4_2_10_24_3_00 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.30
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: A4_2_10_24_3_00 - Dataset 3-properties.csv
-Max height: 0.02 Amps
+Max height: 0.32 mG
 
 Item: P2_2_10_24_2_10 - Dataset 1-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 0.98
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: P2_2_10_24_2_10 - Dataset 1-properties.csv
-Max height: 0.02 Amps
+Max height: 1.08 mG
 
 Item: P2_2_10_24_2_10 - Dataset 2-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 1.05
+Μέση τιμή (mean) της στήλης Brd Load: 0.00
 Item: P2_2_10_24_2_10 - Dataset 2-properties.csv
-Max height: 0.01 Amps
+Max height: 1.16 mG
 
 Item: P2_2_10_24_2_10 - Dataset 3-csv.csv
-Μέση τιμή (mean) της στήλης 'Brd Reslt': 1.04
+Μέση τιμή (mean) της στήλης Brd Load: 0.02
 Item: P2_2_10_24_2_10 - Dataset 3-properties.csv
-Max height: 0.52 Amps
+Max height: 1.11 mG
 

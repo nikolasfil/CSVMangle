@@ -41,10 +41,10 @@ class Mangler:
     def read_max_height(self, file_path):
         with open(file_path, "r") as file:
             lines = file.readlines()
-        return lines[20].split("Max Broadband Load       : ")[1]
+        return lines[19].split("Max Broadband Resultant  : ")[1]
 
     def list_data_contents(self, folder_path, save=False):
-
+        column = "Brd Load"
         output = []
 
         if not folder_path.exists():
@@ -73,15 +73,13 @@ class Mangler:
 
                     # print(f"File: {item.name}")
                     df = self.read_csv(item)
-                    df["Brd Reslt"] = pandas.to_numeric(
-                        df["Brd Reslt"], errors="coerce"
-                    )
+                    df[column] = pandas.to_numeric(df[column], errors="coerce")
                     # Calculate and print the mean (μέση τιμή)
-                    mean_value = df["Brd Reslt"].mean()
-                    print(f"Μέση τιμή (mean) της στήλης 'Brd Reslt': {mean_value:.2f}")
+                    mean_value = df[column].mean()
+                    print(f"Μέση τιμή (mean) της στήλης {column}: {mean_value:.2f}")
                     if save:
                         output.append(
-                            f"Μέση τιμή (mean) της στήλης 'Brd Reslt': {mean_value:.2f}"
+                            f"Μέση τιμή (mean) της στήλης {column}: {mean_value:.2f}"
                         )
 
         if save:
