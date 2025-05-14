@@ -34,14 +34,14 @@ class Mangler:
         # Read a CSV file into a pandas DataFrame
         df = pandas.read_csv(file_path, skipinitialspace=True, encoding="latin-1")
 
-        column = "Brd Reslt"
+        column_mean = "Brd Reslt"
 
-        df[column] = pandas.to_numeric(df[column], errors="coerce")
-        mean_value = df[column].mean()
+        df[column_mean] = pandas.to_numeric(df[column_mean], errors="coerce")
+        mean_value = df[column_mean].mean()
 
-        column = "Brd Load"
-        df[column] = pandas.to_numeric(df[column], errors="coerce")
-        max_value = df[column].max()
+        column_max = "Brd Load"
+        df[column_max] = pandas.to_numeric(df[column_max], errors="coerce")
+        max_value = df[column_max].max()
 
         return mean_value, max_value
 
@@ -49,11 +49,6 @@ class Mangler:
         with open(file_path, "r") as file:
             lines = file.readlines()
         return lines[19].split("Max Broadband Resultant  : ")[1]
-
-    def print_save(self, result, lst=None, save=False):
-        if save:
-            lst.append(result)
-        print(result)
 
     def iterate_directory(self, folder_path):
         if not folder_path.exists():
@@ -70,8 +65,9 @@ class Mangler:
                         self.split_file(sub_item)
 
     def list_data_contents(self, folder_path, save=False):
-        column = "Brd Load"
         output_list = []
+        column_mean = "Brd Reslt"
+        column_max = "Brd Load"
 
         if not folder_path.exists():
             print(f"The folder {folder_path} does not exist.")
@@ -107,19 +103,24 @@ class Mangler:
                     mean_value, max_value = self.read_csv(item)
 
                     self.print_save(
-                        f"Μέση τιμή (mean) της στήλης {column}: {mean_value}",
+                        f"Μέση τιμή (mean) της στήλης {column_mean}: {mean_value}",
                         lst=output_list,
                         save=save,
                     )
 
                     self.print_save(
-                        f"Peak της στήλης {column}: {max_value:.2f}",
+                        f"Peak της στήλης {column_max}: {max_value:.2f}",
                         lst=output_list,
                         save=save,
                     )
 
         if save:
             self.save_output_to_file(output_list)
+
+    def print_save(self, result, lst=None, save=False):
+        if save:
+            lst.append(result)
+        print(result)
 
     def save_output_to_file(self, output_list):
         # Save the output to a text file
@@ -131,7 +132,7 @@ class Mangler:
 
     def main(self):
         print("Formatting files")
-        self.list_data_contents(self.folder_data)
+        self.iterate_directory(self.folder_data)
         print("\n\n\nSplitting files\n\n\n")
         self.list_data_contents(self.folder_out, save=True)
 
