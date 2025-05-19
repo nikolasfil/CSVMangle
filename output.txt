@@ -1,90 +1,126 @@
 Item: A1_2_10_24 - Dataset 1-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.5453125
-Peak της στήλης Brd Load: 0.00
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.62
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Μαξ τιμή (max) της στήλης Brd Load: 0.0
 Max Broadband Resultant  :  0.62 mG
 
 Item: A1_2_10_24 - Dataset 2-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.5172727272727272
-Peak της στήλης Brd Load: 0.00
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.71
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Μαξ τιμή (max) της στήλης Brd Load: 0.0
 Max Broadband Resultant  :  0.71 mG
 
 Item: A1_2_10_24 - Dataset 3-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.4558823529411764
-Peak της στήλης Brd Load: 0.00
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.66
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Μαξ τιμή (max) της στήλης Brd Load: 0.0
 Max Broadband Resultant  :  0.66 mG
 
 Item: A1_2_10_24_1_50 - Dataset 1-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.7686
-Peak της στήλης Brd Load: 0.29
+Μαξ τιμή (max) της στήλης Brd Reslt: 1.06
+Μέση τιμή (mean) της στήλης Brd Load: 0.0074
+Μαξ τιμή (max) της στήλης Brd Load: 0.29
 Max Broadband Resultant  :  1.06 mG
 
 Item: A1_2_10_24_1_50 - Dataset 2-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.6599999999999999
-Peak της στήλης Brd Load: 0.11
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.92
+Μέση τιμή (mean) της στήλης Brd Load: 0.0025
+Μαξ τιμή (max) της στήλης Brd Load: 0.11
 Max Broadband Resultant  :  0.92 mG
 
 Item: A1_2_10_24_1_50 - Dataset 3-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.5644444444444445
-Peak της στήλης Brd Load: 0.09
+Μαξ τιμή (max) της στήλης Brd Reslt: 1.17
+Μέση τιμή (mean) της στήλης Brd Load: 0.0024444444444444444
+Μαξ τιμή (max) της στήλης Brd Load: 0.09
 Max Broadband Resultant  :  1.17 mG
 
 Item: A2_2_10_24_2_32 - Dataset 1-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.2613888888888889
-Peak της στήλης Brd Load: 0.00
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.31
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Μαξ τιμή (max) της στήλης Brd Load: 0.0
 Max Broadband Resultant  :  0.31 mG
 
 Item: A2_2_10_24_2_32 - Dataset 2-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.26421052631578945
-Peak της στήλης Brd Load: 0.05
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.38
+Μέση τιμή (mean) της στήλης Brd Load: 0.002631578947368421
+Μαξ τιμή (max) της στήλης Brd Load: 0.05
 Max Broadband Resultant  :  0.38 mG
 
 Item: A2_2_10_24_2_32 - Dataset 3-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.27
-Peak της στήλης Brd Load: 0.08
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.38
+Μέση τιμή (mean) της στήλης Brd Load: 0.002162162162162162
+Μαξ τιμή (max) της στήλης Brd Load: 0.08
 Max Broadband Resultant  :  0.38 mG
 
 Item: A3_2_10_24_2_52 - Dataset 1-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.17999999999999997
-Peak της στήλης Brd Load: 0.03
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.18
+Μέση τιμή (mean) της στήλης Brd Load: 0.0006666666666666666
+Μαξ τιμή (max) της στήλης Brd Load: 0.03
 Max Broadband Resultant  :  0.18 mG
 
 Item: A3_2_10_24_2_52 - Dataset 2-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.182051282051282
-Peak της στήλης Brd Load: 0.09
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.26
+Μέση τιμή (mean) της στήλης Brd Load: 0.0023076923076923075
+Μαξ τιμή (max) της στήλης Brd Load: 0.09
 Max Broadband Resultant  :  0.26 mG
 
 Item: A3_2_10_24_2_52 - Dataset 3-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.18
-Peak της στήλης Brd Load: 0.73
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.18
+Μέση τιμή (mean) της στήλης Brd Load: 0.022424242424242423
+Μαξ τιμή (max) της στήλης Brd Load: 0.73
 Max Broadband Resultant  :  0.18 mG
 
 Item: A4_2_10_24_3_00 - Dataset 1-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.39965517241379317
-Peak της στήλης Brd Load: 0.00
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.42
+Μέση τιμή (mean) της στήλης Brd Load: 0.0
+Μαξ τιμή (max) της στήλης Brd Load: 0.0
 Max Broadband Resultant  :  0.42 mG
 
 Item: A4_2_10_24_3_00 - Dataset 2-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.32848484848484844
-Peak της στήλης Brd Load: 0.05
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.54
+Μέση τιμή (mean) της στήλης Brd Load: 0.0033333333333333335
+Μαξ τιμή (max) της στήλης Brd Load: 0.05
 Max Broadband Resultant  :  0.54 mG
 
 Item: A4_2_10_24_3_00 - Dataset 3-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.3016666666666667
-Peak της στήλης Brd Load: 0.02
+Μαξ τιμή (max) της στήλης Brd Reslt: 0.32
+Μέση τιμή (mean) της στήλης Brd Load: 0.0005555555555555556
+Μαξ τιμή (max) της στήλης Brd Load: 0.02
 Max Broadband Resultant  :  0.32 mG
 
 Item: P2_2_10_24_2_10 - Dataset 1-
 Μέση τιμή (mean) της στήλης Brd Reslt: 0.9849999999999999
-Peak της στήλης Brd Load: 0.02
+Μαξ τιμή (max) της στήλης Brd Reslt: 1.08
+Μέση τιμή (mean) της στήλης Brd Load: 0.0011111111111111111
+Μαξ τιμή (max) της στήλης Brd Load: 0.02
 Max Broadband Resultant  :  1.08 mG
 
 Item: P2_2_10_24_2_10 - Dataset 2-
 Μέση τιμή (mean) της στήλης Brd Reslt: 1.0490697674418605
-Peak της στήλης Brd Load: 0.01
+Μαξ τιμή (max) της στήλης Brd Reslt: 1.16
+Μέση τιμή (mean) της στήλης Brd Load: 0.00023255813953488373
+Μαξ τιμή (max) της στήλης Brd Load: 0.01
 Max Broadband Resultant  :  1.16 mG
 
 Item: P2_2_10_24_2_10 - Dataset 3-
 Μέση τιμή (mean) της στήλης Brd Reslt: 1.0355882352941177
-Peak της στήλης Brd Load: 0.52
+Μαξ τιμή (max) της στήλης Brd Reslt: 1.11
+Μέση τιμή (mean) της στήλης Brd Load: 0.015294117647058824
+Μαξ τιμή (max) της στήλης Brd Load: 0.52
 Max Broadband Resultant  :  1.11 mG
 

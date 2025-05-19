@@ -63,16 +63,25 @@ class Mangler:
         # Read a CSV file into a pandas DataFrame
         df = pandas.read_csv(file_path, skipinitialspace=True, encoding="latin-1")
 
-        column_mean = "Brd Reslt"
+        column_1 = "Brd Reslt"
 
-        df[column_mean] = pandas.to_numeric(df[column_mean], errors="coerce")
-        mean_value = df[column_mean].mean()
+        df[column_1] = pandas.to_numeric(df[column_1], errors="coerce")
+        column_1_mean = df[column_1].mean()
+        column_1_max = df[column_1].max()
 
-        column_max = "Brd Load"
-        df[column_max] = pandas.to_numeric(df[column_max], errors="coerce")
-        max_value = df[column_max].max()
+        column_2 = "Brd Load"
+        df[column_2] = pandas.to_numeric(df[column_2], errors="coerce")
+        column_2_max = df[column_2].max()
+        column_2_mean = df[column_2].mean()
 
-        return mean_value, max_value
+        return (
+            column_1,
+            column_1_mean,
+            column_1_max,
+            column_2,
+            column_2_mean,
+            column_2_max,
+        )
 
     def read_max_property(self, file_path, property="Max Broadband Resultant  : "):
         """
@@ -188,16 +197,36 @@ class Mangler:
                         save=save,
                     )
 
-                    mean_value, max_value = self.read_csv(item)
+                    # mean_value, max_value
+                    (
+                        column_1,
+                        column_1_mean,
+                        column_1_max,
+                        column_2,
+                        column_2_mean,
+                        column_2_max,
+                    ) = self.read_csv(item)
 
                     self.print_save(
-                        f"Μέση τιμή (mean) της στήλης {column_mean}: {mean_value}",
+                        f"Μέση τιμή (mean) της στήλης {column_1}: {column_1_mean}",
                         lst=output_list,
                         save=save,
                     )
 
                     self.print_save(
-                        f"Peak της στήλης {column_max}: {max_value:.2f}",
+                        f"Μαξ τιμή (max) της στήλης {column_1}: {column_1_max}",
+                        lst=output_list,
+                        save=save,
+                    )
+
+                    self.print_save(
+                        f"Μέση τιμή (mean) της στήλης {column_2}: {column_2_mean}",
+                        lst=output_list,
+                        save=save,
+                    )
+
+                    self.print_save(
+                        f"Μαξ τιμή (max) της στήλης {column_2}: {column_2_max}",
                         lst=output_list,
                         save=save,
                     )
